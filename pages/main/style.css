@@ -1,0 +1,13 @@
+body {
+  max-width: 1600px;
+}
+
+header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+  backdrop-filter: blur(2px);
+}
