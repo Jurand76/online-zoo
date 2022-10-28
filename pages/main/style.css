@@ -1,5 +1,10 @@
 body {
-  max-width: 1600px;
+  display: flex;
+  position: relative;
+  width: 1600px;
+  height: 4975px;
+  margin: auto auto;
+  background: #ffffff;
 }
 
 header {
@@ -10,4 +15,211 @@ header {
   top: 0px;
   background: #000000;
   backdrop-filter: blur(2px);
+  border: none;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#section1_ft {
+  position: absolute;
+  height: 780px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url("../../assets/images/GiantPanda.jpg");
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#logo {
+  content: url("../../assets/images/logo_footer.png");
+  position: absolute;
+  width: 82px;
+  height: 52px;
+  left: 220px;
+  top: 14px;
+  background: #000000;
+}
+
+#about {
+  position: absolute;
+  width: 43px;
+  height: 22px;
+  left: 365px;
+  top: 29px;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  background: #000000;
+}
+
+#map {
+  position: absolute;
+  width: 32px;
+  height: 22px;
+  left: 466px;
+  top: 29px;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  background: #000000;
+}
+
+#zoos {
+  position: absolute;
+  width: 36px;
+  height: 22px;
+  left: 556px;
+  top: 29px;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  background: #000000;
+}
+
+#donate {
+  position: absolute;
+  width: 51px;
+  height: 22px;
+  left: 650px;
+  top: 29px;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  background: #000000;
+}
+
+#contactus {
+  position: absolute;
+  width: 78px;
+  height: 22px;
+  left: 759px;
+  top: 29px;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  background: #000000;
+}
+
+#about:hover,
+#map:hover,
+#zoos:hover,
+#donate:hover,
+#contactus:hover,
+#logo:hover {
+  color: #f9804b;
+  cursor: pointer;
+}
+
+#designedby {
+  position: absolute;
+  width: 105px;
+  height: 22px;
+  left: 1275px;
+  top: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  background: #000000;
+}
+
+#watchyouranimal {
+  position: absolute;
+  width: 500.31px;
+  height: 400px;
+  left: calc(50% - 500.31px / 2 + 330.15px);
+  top: 166px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 106.496px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: none;
+}
+
+#ellipse6 {
+  content: " ";
+  color: orange;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 50%;
+  width: 465px;
+  height: 465px;
+  left: calc(50% - 465px / 2 + 239.5px);
+  top: 92px;
+  /* orange */
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border: 1px solid #000000;
+}
+
+#yellow_font {
+  color: #ffee2e;
+  background: none;
+}
+
+#btn_1 {
+  color: #ffffff;
+  position: absolute;
+  width: 298px;
+  height: 54px;
+  left: calc(50% - 298px / 2 + 332px);
+  top: 626px;
+  /* orange */
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#section2 {
+  position: absolute;
+  height: 403px;
+  left: 219px;
+  right: 220px;
+  top: 920px;
+  background: none;
+}
+
+#TheBackstage {
+  background: none;
+  position: absolute;
+  height: 116px;
+  left: 696px;
+  right: 0px;
+  top: 0px;
+  color: #333b41;
 }
