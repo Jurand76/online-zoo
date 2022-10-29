@@ -292,6 +292,14 @@ p {
   right: 0px;
 }
 
+#flower {
+  position: absolute;
+  width: 293px;
+  height: 605px;
+  left: 1178px;
+  top: -120px;
+}
+
 #section3_animals_card {
   position: absolute;
   width: 1158px;
