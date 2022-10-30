@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <section id="section1_ft">
-      <header>
+      <header class="navbar_font">
         <span id="logo">Logo</span>
         <span id="about">About</span>
         <span id="map">Map</span>
@@ -31,7 +31,7 @@
       <span id="watchyouranimal"
         >Watch your <span id="yellow_font">favorite</span> animal online</span
       >
-      <button id="btn_1">WATCH ONLINE</button>
+      <button id="btn_1" class="btn">WATCH ONLINE</button>
     </section>
 
     <section id="section2">
@@ -69,25 +69,92 @@
     <section id="section3_animals_card">
       <div class="grid_container">
         <div class="div1" id="animal_card">
-          <img src="../../assets/images/GiantPandas.jpg" />
+          <div class="animal_card_animation">
+            <img
+              class="animal_card_animation"
+              src="../../assets/images/GiantPandas.jpg"
+            />
+          </div>
+          <div class="animal_text_animation">
+            <span class="btn">GIANT PANDAS</span><br />
+            <span class="smallParagraph_font">Native to Southwest China</span>
+          </div>
         </div>
         <div class="div2" id="animal_card">
-          <img src="../../assets/images/Eagles.jpg" />
+          <div class="animal_card_animation">
+            <img
+              class="animal_card_animation"
+              src="../../assets/images/Eagles.jpg"
+            />
+          </div>
+          <div class="animal_text_animation">
+            <span class="btn">EAGLES</span><br />
+            <span class="smallParagraph_font">Native to South America</span>
+          </div>
         </div>
         <div class="div3" id="animal_card">
-          <img src="../../assets/images/Gorillas.jpg" />
+          <div class="animal_card_animation">
+            <img
+              class="animal_card_animation"
+              src="../../assets/images/Gorillas.jpg"
+            />
+          </div>
+          <div class="animal_text_animation">
+            <span class="btn">GORILLAS</span><br />
+            <span class="smallParagraph_font">Native to Congo</span>
+          </div>
         </div>
+
+        <button id="ellipse1" class="btn"><---</button>
+        <button id="ellipse2" class="btn">---></button>
+
         <div class="div4" id="animal_card">
-          <img src="../../assets/images/GiantPandas.jpg" />
+          <div class="animal_card_animation">
+            <img
+              class="animal_card_animation"
+              src="../../assets/images/TwoToedSloth.jpg"
+            />
+          </div>
+          <div class="animal_text_animation">
+            <span class="btn">TWO-TOED SLOTH</span><br />
+            <span class="smallParagraph_font">Native to South America</span>
+          </div>
         </div>
         <div class="div5" id="animal_card">
-          <img src="../../assets/images/Eagles.jpg" />
+          <div class="animal_card_animation">
+            <img
+              class="animal_card_animation"
+              src="../../assets/images/Cheetahs.jpg"
+            />
+          </div>
+          <div class="animal_text_animation">
+            <span class="btn">CHEETAHS</span><br />
+            <span class="smallParagraph_font">Native to Africa</span>
+          </div>
         </div>
         <div class="div6" id="animal_card">
-          <img src="../../assets/images/Gorillas.jpg" />
+          <div class="animal_card_animation">
+            <img
+              class="animal_card_animation"
+              src="../../assets/images/Penguins.jpg"
+            />
+          </div>
+          <div class="animal_text_animation">
+            <span class="btn">PENGUINS</span><br />
+            <span class="smallParagraph_font">Native to Antarctica</span>
+          </div>
         </div>
       </div>
+      <div>
+        <img id="palm_image" src="../../assets/images/palm_foto.png" />
+      </div>
+      <div>
+        <img id="strelitzia_image" src="../../assets/images/strelitzia.png" />
+      </div>
+      <button id="btn_2" class="btn">CHOOSE YOUR FAVORITE</button>
     </section>
+
+    <section id="bg_section4_pick-and-feed"></section>
 
     <footer></footer>
   </body>
