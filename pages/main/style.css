@@ -96,6 +96,15 @@ p {
   color: #333b41;
 }
 
+.subscribe_font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
 .smallParagraph_font {
   font-family: "Roboto";
   font-style: normal;
