@@ -1,3 +1,8 @@
+:root {
+  --about-active-color: #f9804b;
+  --about-cursor: pointer;
+}
+
 html {
   background: #e5e5e5;
 }
@@ -133,8 +138,9 @@ p {
   height: 22px;
   left: 365px;
   top: 29px;
-  color: white;
+  color: var(--about-active-color);
   background: #000000;
+  cursor: var(--about-cursor);
 }
 
 #map {
@@ -177,7 +183,6 @@ p {
   background: #000000;
 }
 
-#about:hover,
 #map:hover,
 #zoos:hover,
 #donate:hover,
@@ -186,6 +191,11 @@ p {
 #logo:hover {
   color: #f9804b;
   cursor: pointer;
+}
+
+a:visited {
+  --about-cursor: not-allowed;
+  --about-active-color: #aaaaaa;
 }
 
 #designedby {
