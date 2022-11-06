@@ -33,8 +33,7 @@ h2 {
   font-weight: 400;
   font-size: 48px;
   line-height: 120%;
-  margin-top: 0;
-  margin-bottom: 0;
+  color: #fe9013;
 }
 
 h3 {
@@ -44,6 +43,10 @@ h3 {
   font-size: 36px;
   line-height: 130%;
   color: #333b41;
+}
+
+.white_font {
+  color: #ffffff;
 }
 
 p {
@@ -69,22 +72,22 @@ p {
   color: white;
 }
 
-.pickandfeed_font1 {
+.donate1_small_font {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 130%;
-  color: #333b41;
+  line-height: 140%;
+  color: #ffffff;
 }
 
-.pickandfeed_font2 {
+.donate1_orange_font {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 36px;
   line-height: 130%;
-  color: #333b41;
+  color: #fe9013;
 }
 
 .subtitle_font {
@@ -113,16 +116,21 @@ p {
   line-height: 120%;
 }
 
-.row {
-  display: flex;
+.days_feed_font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 
-.column_2 {
-  flex: 50%;
-}
-
-.column_3 {
-  flex: 33%;
+.centered_text {
+  text-align: center;
 }
 
 #image_header {
@@ -131,36 +139,6 @@ p {
   left: 0px;
   right: 0px;
   top: 80px;
-}
-
-#donate1 {
-  position: absolute;
-  height: 1482px;
-  left: 0px;
-  right: 0px;
-  top: 470px;
-  background: linear-gradient(
-      315.75deg,
-      rgba(254, 210, 144, 0.7) 30.06%,
-      #febdab 100.95%,
-      rgba(254, 210, 144, 0.7) 106.36%
-    ),
-    linear-gradient(
-      315.75deg,
-      rgba(254, 189, 171, 0.74) 30.06%,
-      rgba(243, 169, 248, 0.66) 50.74%,
-      #e0d8f0 80.49%,
-      #eaf7fe 127.9%,
-      #eaf7fe 149.54%
-    ),
-    linear-gradient(
-      315.75deg,
-      rgba(254, 189, 171, 0.74) 30.06%,
-      rgba(243, 169, 248, 0.66) 50.74%,
-      #e0d8f0 80.49%,
-      #eaf7fe 127.9%,
-      #eaf7fe 149.54%
-    );
 }
 
 .navbar_font {
@@ -262,10 +240,158 @@ a:visited {
   background: none;
 }
 
+#donate1 {
+  position: absolute;
+  height: 1482px;
+  left: 0px;
+  right: 0px;
+  top: 470px;
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+}
+
+.donate1_text_section {
+  width: 1156px;
+  margin: auto;
+}
+
+#pick_and_feed {
+  width: 1160px;
+  height: 964px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+}
+
+#pick_and_feed_inside {
+  width: 976px;
+  height: 862px;
+  margin-left: 92px;
+}
+
+.grid_feed {
+  width: 568px;
+  display: grid;
+  grid-template-columns: 206px 78px 284px;
+  grid-template-rows: 246px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 180px;
+  margin-top: 60px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  margin-top: 122px;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
 #footer {
   position: absolute;
   background: #000000;
   height: 443px;
   width: 1600px;
   bottom: 0px;
+}
+
+#progress_bar {
+  width: 976px;
+  height: 40px;
+}
+
+#progress_bar_dark {
+  position: absolute;
+  top: 562px;
+  width: 976px;
+  height: 27px;
+  background: #404950;
+  border-radius: 2px;
+}
+
+#progress_bar_line {
+  margin-top: 12px;
+  width: 915px;
+  height: 2px;
+  background: #72828e;
+  margin-left: 31px;
+}
+
+label {
+  color: orange;
+  margin-top: 25px;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  padding: 15px;
+  background-clip: content-box;
+  background-color: #ffee2e;
+  border-radius: 50%;
+  margin-top: -21px;
+  vertical-align: top;
+  accent-color: #ffee2e;
+}
+
+input[type="radio"]:checked {
+  border: 2px solid #fe9013;
+  background-color: #ffc72e;
+}
+
+.width_span {
+  margin-left: 66px;
+}
+
+.margin_top40 {
+  margin-top: 40px;
+}
+
+.margin_top50 {
+  margin-top: 50px;
+}
+
+.margin_bottom10 {
+  margin-bottom: 10px;
+}
+
+.margin_bottom20 {
+  margin-bottom: 20px;
+}
+
+.margin_bottom60 {
+  margin-bottom: 60px;
+}
+
+.padding_top40 {
+  padding-top: 40px;
 }
