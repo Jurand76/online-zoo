@@ -27,6 +27,15 @@ header {
   border: none;
 }
 
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
 h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -163,13 +172,18 @@ p {
 }
 
 #logo {
-  content: url("../../assets/images/logo_footer.png");
+  content: "PetStory online";
   position: absolute;
   width: 82px;
   height: 52px;
   left: 220px;
   top: 14px;
   background: #000000;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
 }
 
 #about {
@@ -516,13 +530,21 @@ input[type="text"] {
 }
 
 #logo_footer {
-  content: url("../../assets/images/logo_footer.png");
   position: absolute;
   width: 82px;
   height: 52px;
   left: 220px;
   top: 41px;
   background: #000000;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+#logo_footer:hover {
+  color: #f9804b;
 }
 
 .container_3 {
