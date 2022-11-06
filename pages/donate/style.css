@@ -416,7 +416,6 @@ label {
   border-width: 1px;
   border-style: solid;
   border-color: #fe9013;
-  accent-color: #ffee2e;
 }
 
 .radio_orange:checked {
@@ -424,7 +423,6 @@ label {
   border-width: 2px;
   border-color: #fe9013;
   background-color: #fe9013;
-  accent-color: #ffee2e;
 }
 
 .radio_orange:hover {
@@ -432,7 +430,6 @@ label {
   border-width: 2px;
   border-color: #fe9013;
   background-color: #fe9013;
-  accent-color: #ffee2e;
 }
 
 input[type="radio"]:hover {
@@ -469,16 +466,19 @@ input[type="text"] {
   height: 54px;
   margin-left: 342px;
   /* orange */
-  background: orange;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
   border: none;
   text-align: center;
 }
 
 #btn_3:hover {
-  animation-name: buttonBackground;
-  animation-duration: 2s;
-  background: orange;
+  background: #e47209;
+  cursor: pointer;
+}
+
+#btn_3:active {
+  background: #4b9200;
   cursor: pointer;
 }
 

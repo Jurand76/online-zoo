@@ -258,7 +258,6 @@ a:visited {
   top: 92px;
   /* orange */
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
-  border: 1px solid #000000;
 }
 
 #yellow_font {
@@ -274,7 +273,7 @@ a:visited {
   left: calc(50% - 298px / 2 + 332px);
   top: 626px;
   /* orange */
-  background: orange;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
   border: none;
   text-align: center;
@@ -289,16 +288,19 @@ a:visited {
   left: calc(50% - 298px / 2);
   top: 956px;
   /* orange */
-  background: orange;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
   border: none;
   text-align: center;
 }
 
 #btn_2:hover {
-  animation-name: buttonBackground;
-  animation-duration: 2s;
-  background: orange;
+  background: #e47209;
+  cursor: pointer;
+}
+
+#btn_2:active {
+  background: #4b9200;
   cursor: pointer;
 }
 
@@ -311,9 +313,12 @@ a:visited {
 }
 
 #btn_1:hover {
-  animation-name: buttonBackground;
-  animation-duration: 2s;
-  background: orange;
+  background: #e47209;
+  cursor: pointer;
+}
+
+#btn_1:active {
+  background: #4b9200;
   cursor: pointer;
 }
 
@@ -672,16 +677,19 @@ a:visited {
   height: 54px;
   margin-left: calc(50% - 298px / 2);
   /* orange */
-  background: orange;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
   border: none;
   text-align: center;
 }
 
 #btn_3:hover {
-  animation-name: buttonBackground;
-  animation-duration: 2s;
-  background: orange;
+  background: #e47209;
+  cursor: pointer;
+}
+
+#btn_3:active {
+  background: #4b9200;
   cursor: pointer;
 }
 
