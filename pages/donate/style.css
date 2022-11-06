@@ -364,8 +364,30 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-  border: 2px solid #fe9013;
-  background-color: #ffc72e;
+  border-style: double;
+  border-width: 2px;
+  border-color: #fe9013;
+  background-color: #fe9013;
+  animation-name: animate_amount;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate_amount {
+  0% {
+    background-color: #ffee2e;
+  }
+  50% {
+    background-color: #fe9013;
+  }
+  100% {
+    background-color: #ffee2e;
+  }
+}
+
+input[type="radio"]:hover {
+  background-color: #ffee2e;
 }
 
 .width_span {
