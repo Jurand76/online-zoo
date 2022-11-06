@@ -494,6 +494,146 @@ input[type="text"] {
   }
 }
 
+#footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 1948px;
+  width: 1600px;
+  height: 443px;
+  background: #000000;
+}
+
+#logo_footer {
+  content: url("../../assets/images/logo_footer.png");
+  position: absolute;
+  width: 82px;
+  height: 52px;
+  left: 220px;
+  top: 41px;
+  background: #000000;
+}
+
+.container_3 {
+  display: grid;
+  grid-template-columns: 300px 400px 460px;
+  grid-template-rows: 400px;
+  gap: 0px 0px;
+  grid-template-areas: ". . . . .";
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: start;
+}
+
+.div31 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div32 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div33 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+#btn_4 {
+  width: 298px;
+  color: #ffffff;
+  margin-top: 156px;
+  height: 54px;
+  margin-left: 0px;
+  /* orange */
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+#btn_4:hover {
+  background: #e47209;
+  cursor: pointer;
+}
+
+#btn_4:active {
+  background: #4b9200;
+  cursor: pointer;
+}
+
+#socialmedia {
+  margin-top: 44px;
+  margin-left: 0px;
+}
+
+.icon_socialmedia {
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 7px;
+}
+
+.text_socialmedia {
+  color: white;
+  text-decoration: none;
+}
+
+.text_socialmedia:hover {
+  color: #4b9200;
+  text-decoration: none;
+}
+
+.footer_links {
+  text-decoration: none;
+}
+
+#about_footer {
+  width: 43px;
+  height: 22px;
+  margin-left: 10px;
+  color: var(--about-active-color);
+  cursor: var(--about-cursor);
+  text-decoration: none;
+}
+
+#about_footer:hover,
+#map_footer:hover,
+#zoos_footer:hover,
+#contactus_footer:hover {
+  text-decoration: none;
+  color: #f9804b;
+}
+
+#map_footer {
+  width: 32px;
+  height: 22px;
+  margin-left: 55px;
+  color: white;
+  text-decoration: none;
+}
+
+#zoos_footer {
+  width: 36px;
+  height: 22px;
+  margin-left: 55px;
+  color: white;
+  text-decoration: none;
+}
+
+#contactus_footer {
+  width: 78px;
+  height: 22px;
+  margin-left: 55px;
+  color: white;
+  text-decoration: none;
+}
+
+.margintop_371 {
+  margin-top: 371px;
+}
+
+.margintop_40 {
+  margin-top: 40px;
+}
+
 .width_span {
   margin-left: 66px;
 }
