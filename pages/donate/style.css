@@ -442,12 +442,23 @@ input[type="text"] {
   background: none;
   border-color: #929699;
   border-style: solid;
+  padding-left: 10px;
 }
 
 #amount_manual {
   width: 268px;
   height: 54px;
   margin: auto auto;
+}
+
+#sign_dollar {
+  position: absolute;
+  right: 445px;
+  top: 694px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
 }
 
 .btn {
@@ -589,8 +600,8 @@ input[type="text"] {
   width: 43px;
   height: 22px;
   margin-left: 10px;
-  color: var(--about-active-color);
-  cursor: var(--about-cursor);
+  color: #ffffff;
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -637,6 +648,7 @@ input[type="text"] {
   background: none;
   color: #bdbdbd;
   margin-top: 10px;
+  padding-left: 10px;
 }
 
 #btn_submit_mail {
