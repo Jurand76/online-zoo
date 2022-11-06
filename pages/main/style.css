@@ -845,6 +845,49 @@ a:visited {
   text-decoration: none;
 }
 
+#email_form {
+  box-sizing: border-box;
+  width: 228px;
+  height: 42px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f9804b;
+  background: none;
+  color: #bdbdbd;
+  margin-top: 10px;
+}
+
+#btn_submit_mail {
+  height: 42px;
+  width: 129px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  border-color: #333b41;
+  border-radius: 5px;
+}
+
+#btn_submit_mail:hover {
+  border-color: #4b9200;
+  color: #4b9200;
+}
+
+#designed_by {
+  width: 230px;
+  height: 21px;
+  margin-top: 225px;
+  margin-left: 130px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
 .margintop_371 {
   margin-top: 371px;
 }
