@@ -1,0 +1,271 @@
+:root {
+  --about-active-color: #f9804b;
+  --about-cursor: pointer;
+}
+
+html {
+  background: #e5e5e5;
+}
+
+body {
+  display: flex;
+  position: relative;
+  width: 1600px;
+  height: 2391px;
+  margin: auto auto;
+  background: #ffffff;
+}
+
+header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+  backdrop-filter: blur(2px);
+  border: none;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  color: #333b41;
+}
+
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #333b41;
+}
+
+.body_font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.white {
+  color: white;
+}
+
+.pickandfeed_font1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333b41;
+}
+
+.pickandfeed_font2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333b41;
+}
+
+.subtitle_font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333b41;
+}
+
+.subscribe_font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.smallParagraph_font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+}
+
+.row {
+  display: flex;
+}
+
+.column_2 {
+  flex: 50%;
+}
+
+.column_3 {
+  flex: 33%;
+}
+
+#image_header {
+  position: absolute;
+  height: 390px;
+  left: 0px;
+  right: 0px;
+  top: 80px;
+}
+
+#donate1 {
+  position: absolute;
+  height: 1482px;
+  left: 0px;
+  right: 0px;
+  top: 470px;
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+}
+
+.navbar_font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+#logo {
+  content: url("../../assets/images/logo_footer.png");
+  position: absolute;
+  width: 82px;
+  height: 52px;
+  left: 220px;
+  top: 14px;
+  background: #000000;
+}
+
+#about {
+  position: absolute;
+  width: 43px;
+  height: 22px;
+  left: 365px;
+  top: 29px;
+  color: white;
+  background: #000000;
+  cursor: var(--about-cursor);
+}
+
+#map {
+  position: absolute;
+  width: 32px;
+  height: 22px;
+  left: 466px;
+  top: 29px;
+  color: white;
+  background: #000000;
+}
+
+#zoos {
+  position: absolute;
+  width: 36px;
+  height: 22px;
+  left: 556px;
+  top: 29px;
+  color: white;
+  background: #000000;
+}
+
+#donate {
+  position: absolute;
+  width: 51px;
+  height: 22px;
+  left: 650px;
+  top: 29px;
+  color: #f9804b;
+  background: #000000;
+}
+
+#contactus {
+  position: absolute;
+  width: 78px;
+  height: 22px;
+  left: 759px;
+  top: 29px;
+  color: white;
+  background: #000000;
+}
+
+#map:hover,
+#about:hover,
+#zoos:hover,
+#contactus:hover,
+#designedby:hover,
+#logo:hover {
+  color: #f9804b;
+  cursor: pointer;
+}
+
+a:visited {
+  --about-cursor: not-allowed;
+  --about-active-color: #aaaaaa;
+}
+
+#designedby {
+  position: absolute;
+  width: 105px;
+  height: 22px;
+  left: 1275px;
+  top: 29px;
+  color: #ffffff;
+  background: #000000;
+}
+
+#yellow_font {
+  color: #ffee2e;
+  background: none;
+}
+
+#footer {
+  position: absolute;
+  background: #000000;
+  height: 443px;
+  width: 1600px;
+  bottom: 0px;
+}
