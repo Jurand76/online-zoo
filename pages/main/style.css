@@ -20,7 +20,7 @@ body {
 @media screen and (max-width: 1000px) {
   body {
     width: 1000px;
-    height: 4975px;
+    height: 4489px;
   }
 }
 
@@ -383,12 +383,18 @@ a:visited {
   width: 298px;
   height: 54px;
   left: calc(50% - 298px / 2);
-  top: 956px;
+  top: 2455px;
   /* orange */
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
   border: none;
   text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  #btn_2 {
+    top: 2134px;
+  }
 }
 
 #btn_2:hover {
@@ -560,8 +566,8 @@ a:visited {
 @media screen and (max-width: 1000px) {
   #section3_animals_card {
     width: 940px;
+    height: 801px;
     top: 1253px;
-    overflow: hidden;
     left: 30px;
   }
 }
@@ -578,8 +584,8 @@ a:visited {
   .grid_container {
     grid-template-columns: repeat(3, 294px);
     grid-template-rows: repeat(2, 354px);
-    grid-column-gap: 29px;
-    grid-row-gap: 92px;
+    grid-column-gap: 28px;
+    grid-row-gap: 90px;
   }
 }
 
@@ -616,7 +622,6 @@ a:visited {
   border-color: #fa6f32;
   border-style: solid;
   border-width: 1px;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 1000px) {
@@ -628,7 +633,6 @@ a:visited {
     border-color: #fa6f32;
     border-style: solid;
     border-width: 1px;
-    overflow: hidden;
   }
 }
 
@@ -749,6 +753,13 @@ a:visited {
   border: none;
 }
 
+@media screen and (max-width: 1000px) {
+  #ellipse1 {
+    top: 369px;
+    left: 323px;
+  }
+}
+
 #ellipse2 {
   color: #ffffff;
   position: absolute;
@@ -763,6 +774,13 @@ a:visited {
   border: none;
 }
 
+@media screen and (max-width: 1000px) {
+  #ellipse2 {
+    top: 369px;
+    left: 556px;
+  }
+}
+
 #ellipse2:hover,
 #ellipse1:hover {
   background: red;
@@ -770,7 +788,7 @@ a:visited {
 
 #palm_image {
   position: absolute;
-  margin-left: -221px;
+  margin-left: -121px;
   margin-top: -225px;
 }
 
@@ -778,6 +796,27 @@ a:visited {
   position: absolute;
   margin-left: 1012px;
   margin-top: -41px;
+}
+
+@media screen and (max-width: 1000px) {
+  #palm_image {
+    position: absolute;
+    top: 985px;
+    left: 90px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #strelitzia_image {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    top: 895px;
+    left: 730px;
+    width: 241px;
+    height: 180px;
+  }
 }
 
 #bg_section4_pick-and-feed {
@@ -812,6 +851,14 @@ a:visited {
   opacity: 0.9;
 }
 
+@media screen and (max-width: 1000px) {
+  #bg_section4_pick-and-feed {
+    top: 2328px;
+    width: 1000px;
+    height: 876px;
+  }
+}
+
 #bg {
   position: absolute;
   height: 835px;
@@ -821,6 +868,16 @@ a:visited {
   background: rgba(253, 253, 255, 0.52);
   backdrop-filter: blur(2px);
   border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #bg {
+    position: absolute;
+    height: 796px;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+  }
 }
 
 .orange_font {
