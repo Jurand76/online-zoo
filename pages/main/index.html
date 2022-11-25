@@ -66,21 +66,22 @@
       </span>
     </section>
 
-    <section id="section3_animals_card">
-      <div class="grid_container">
-        <div class="div1" id="animal_card">
-          <div class="animal_card_animation">
-            <img
-              class="animal_card_animation"
-              src="../../assets/images/GiantPandas.jpg"
-            />
+    <section>
+      <div id="section3_animals_card">
+        <div id="grid_container">
+          <div class="div1" id="animal_card">
+            <div class="animal_card_animation">
+              <img
+                class="animal_card_animation"
+                src="../../assets/images/GiantPandas.jpg"
+              />
+            </div>
+            <div class="animal_text_animation">
+              <span class="btn">GIANT PANDAS</span><br />
+              <span class="smallParagraph_font">Native to Southwest China</span>
+            </div>
           </div>
-          <div class="animal_text_animation">
-            <span class="btn">GIANT PANDAS</span><br />
-            <span class="smallParagraph_font">Native to Southwest China</span>
-          </div>
-        </div>
-        <div class="div2" id="animal_card">
+          <div class="div2" id="animal_card">
           <div class="animal_card_animation">
             <img
               class="animal_card_animation"
@@ -91,8 +92,8 @@
             <span class="btn">EAGLES</span><br />
             <span class="smallParagraph_font">Native to South America</span>
           </div>
-        </div>
-        <div class="div3" id="animal_card">
+          </div>
+          <div class="div3" id="animal_card">
           <div class="animal_card_animation">
             <img
               class="animal_card_animation"
@@ -103,12 +104,8 @@
             <span class="btn">GORILLAS</span><br />
             <span class="smallParagraph_font">Native to Congo</span>
           </div>
-        </div>
-
-        <button id="ellipse1" class="btn"><---</button>
-        <button id="ellipse2" class="btn">---></button>
-
-        <div class="div4" id="animal_card">
+          </div>
+          <div class="div4" id="animal_card">
           <div class="animal_card_animation">
             <img
               class="animal_card_animation"
@@ -119,8 +116,8 @@
             <span class="btn">TWO-TOED SLOTH</span><br />
             <span class="smallParagraph_font">Native to South America</span>
           </div>
-        </div>
-        <div class="div5" id="animal_card">
+          </div>
+          <div class="div5" id="animal_card">
           <div class="animal_card_animation">
             <img
               class="animal_card_animation"
@@ -131,8 +128,8 @@
             <span class="btn">CHEETAHS</span><br />
             <span class="smallParagraph_font">Native to Africa</span>
           </div>
-        </div>
-        <div class="div6" id="animal_card">
+          </div>
+          <div class="div6" id="animal_card">
           <div class="animal_card_animation">
             <img
               class="animal_card_animation"
@@ -143,7 +140,71 @@
             <span class="btn">PENGUINS</span><br />
             <span class="smallParagraph_font">Native to Antarctica</span>
           </div>
-        </div>
+          </div>
+          <div class="div7" id="animal_card">
+            <div class="animal_card_animation">
+              <img
+                class="animal_card_animation"
+                src="../../assets/images/Alligators.jpg"
+              />
+            </div>
+            <div class="animal_text_animation">
+              <span class="btn">ALLIGATORS</span><br />
+              <span class="smallParagraph_font">Native to Southeastern United States</span>
+            </div>
+          </div>
+          <div class="div8" id="animal_card">
+            <div class="animal_card_animation">
+              <img
+                class="animal_card_animation"
+                src="../../assets/images/Gorillas2.jpg"
+              />
+            </div>
+            <div class="animal_text_animation">
+              <span class="btn">GORILLAS</span><br />
+              <span class="smallParagraph_font">Native to Congo</span>
+            </div>
+          </div>
+
+      </div>
+      </div>
+      <div id="container_buttons">
+        <script>
+          function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+          }
+          async function moveAnimalsLeft() {
+            let element = document.getElementById('grid_container');
+            let style = getComputedStyle(element);
+            let element2 = document.getElementById('animal_card');
+            let style2 = getComputedStyle(element2);
+            let width_destination = parseInt(style2.width) + 30;
+            if (style.marginLeft != "0px") {
+              for (let i=width_destination-1; i>=0; i--)
+              { 
+                element.style.marginLeft = "-" + i + "px";
+                await sleep(3);
+              }
+            } 
+          }
+          async function moveAnimalsRight() {
+            let element = document.getElementById('grid_container');
+            let style = getComputedStyle(element);
+            let element2 = document.getElementById('animal_card');
+            let style2 = getComputedStyle(element2);
+            let width_destination = parseInt(style2.width) + 30;
+            if (style.marginLeft == "0px") {
+              let a = 0;
+              for (let i=0; i<=width_destination-1; i++)
+              { 
+                element.style.marginLeft = "-" + i + "px";
+                await sleep(3);
+              } 
+            }
+          }
+        </script>
+        <button id="ellipse1" class="btn" onclick="moveAnimalsLeft()"><---</button>
+        <button id="ellipse2" class="btn" onclick="moveAnimalsRight()">---></button>
       </div>
       <div>
         <img id="palm_image" src="../../assets/images/palm_foto.png" />
