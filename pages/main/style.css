@@ -1256,11 +1256,17 @@ a:visited {
   grid-template-columns: 300px 400px 460px;
   grid-template-rows: 400px;
   gap: 0px 0px;
-  grid-template-areas: ". . . . .";
   justify-content: center;
   align-content: center;
   justify-items: center;
   align-items: start;
+}
+
+@media screen and (max-width: 1000px) {
+  .container_3 {
+    grid-template-columns: 291px 369px 280px;
+    grid-template-rows: 443px;
+  }
 }
 
 .div31 {
@@ -1310,6 +1316,12 @@ a:visited {
   text-align: center;
 }
 
+@media screen and (max-width: 1000px) {
+  #btn_4 {
+    margin-left: 0px;
+  }
+}
+
 #btn_4:hover {
   background: #e47209;
   cursor: pointer;
@@ -1323,6 +1335,12 @@ a:visited {
 #socialmedia {
   margin-top: 44px;
   margin-left: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  #socialmedia {
+    margin-left: 0px;
+  }
 }
 
 .icon_socialmedia {
@@ -1353,6 +1371,12 @@ a:visited {
   color: var(--about-active-color);
   cursor: var(--about-cursor);
   text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  #about_footer {
+    margin-left: -30px;
+  }
 }
 
 #about_footer:hover,
@@ -1401,6 +1425,12 @@ a:visited {
   padding-left: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+  #email_form {
+    margin-left: -60px;
+  }
+}
+
 #btn_submit_mail {
   height: 42px;
   width: 129px;
@@ -1429,6 +1459,12 @@ a:visited {
   font-size: 16px;
   line-height: 160%;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+  #designed_by {
+    margin-left: 90px;
+  }
 }
 
 .margintop_371 {
