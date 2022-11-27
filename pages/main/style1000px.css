@@ -1,0 +1,288 @@
+@media screen and (max-width: 1000px) {
+  body {
+    width: 1000px;
+    height: 4489px;
+  }
+
+  header {
+    width: 1000px;
+  }
+  #section1_ft {
+    height: 584px;
+    background: url("../../assets/images/GiantPanda.jpg");
+    background-size: 1198px 584px;
+    background-position: center;
+  }
+
+  #logo {
+    left: 30px;
+  }
+
+  #about {
+    left: 175px;
+  }
+
+  #map {
+    left: 266px;
+  }
+
+  #zoos {
+    left: 346px;
+  }
+
+  #donate {
+    left: 430px;
+  }
+
+  #contactus {
+    left: 529px;
+  }
+
+  #designedby {
+    left: 865px;
+  }
+
+  #watchyouranimal {
+    width: 400.25px;
+    height: 320px;
+    left: calc(50% - 400.25px / 2 + 214.12px);
+    top: 122.8px;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 75%;
+  }
+
+  #ellipse6 {
+    position: absolute;
+    width: 367px;
+    height: 367px;
+    left: calc(50% - 367px / 2 + 139.5px);
+    top: 69px;
+  }
+
+  #btn_1 {
+    left: calc(50% - 298px / 2 + 214px);
+    top: 483px;
+  }
+
+  #btn_2 {
+    top: 2134px;
+  }
+
+  #section2 {
+    height: 427px;
+    left: 30px;
+    right: 30px;
+    top: 684px;
+    width: 940px;
+  }
+
+  .column {
+    width: 455px;
+    height: 408px;
+    overflow: hidden;
+  }
+
+  .column_2 {
+    width: 454px;
+    height: 408px;
+    overflow: hidden;
+    padding-left: 31px;
+  }
+
+  #TheBackstage {
+    left: 486px;
+    width: 455px;
+    height: 408px;
+    overflow: hidden;
+  }
+
+  #TheBackStage_p {
+    left: 486px;
+    width: 455px;
+    height: 408px;
+    overflow: hidden;
+  }
+
+  #TheBackStage_subtitle {
+    left: 486px;
+  }
+
+  #flower {
+    display: none;
+  }
+
+  #section3_animals_card {
+    width: 940px;
+    height: 801px;
+    top: 1253px;
+    left: 30px;
+  }
+
+  #grid_container {
+    grid-template-columns: repeat(4, 294px);
+    grid-template-rows: repeat(2, 354px);
+    grid-column-gap: 28px;
+    grid-row-gap: 90px;
+  }
+
+  #animal_card {
+    width: 294px;
+    height: 354px;
+    top: 0px;
+    border-radius: 5px;
+    border-color: #fa6f32;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .animal_card_animation {
+    width: 294px;
+    height: 294px;
+  }
+
+  #animal_card:hover .animal_card_animation {
+    width: 334px;
+    height: 334px;
+  }
+
+  @keyframes animate_image {
+    0% {
+      width: 294px;
+      height: 294px;
+      filter: brightness(100%);
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    100% {
+      width: 334px;
+      height: 334px;
+      filter: brightness(70%);
+      margin-left: -10px;
+      margin-top: -10px;
+    }
+  }
+
+  #ellipse1 {
+    top: 1622px;
+    left: 354px;
+  }
+
+  #ellipse2 {
+    top: 1622px;
+    left: 587px;
+  }
+
+  #palm_image {
+    position: absolute;
+    top: 2013px;
+    left: 0px;
+    width: 200px;
+  }
+
+  #strelitzia_image {
+    position: absolute;
+    top: 2148px;
+    right: 0px;
+    width: 241px;
+    height: 180px;
+  }
+
+  #bg_section4_pick-and-feed {
+    top: 2328px;
+    width: 1000px;
+    height: 876px;
+  }
+
+  #bg {
+    position: absolute;
+    height: 796px;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+  }
+
+  .margin_99 {
+    margin-left: 46px;
+    margin-right: 46px;
+  }
+
+  .marginbottom_60 {
+    margin-bottom: 40px;
+  }
+
+  #btn_3 {
+    margin-top: 40px;
+  }
+
+  #section_testimonials {
+    width: 1000px;
+    height: 800px;
+    top: 3304px;
+  }
+
+  #testimonials {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+    width: 940px;
+    margin-left: 30px;
+  }
+
+  .testimonial_item {
+    width: 289px;
+  }
+
+  .testimonial_track {
+    width: 460px;
+  }
+
+  #btn_leave_feedback {
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+
+  #leav_foto {
+    top: 3770px;
+  }
+
+  #footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 4046px;
+    width: 1000px;
+    height: 443px;
+    background: #000000;
+  }
+
+  .container_3 {
+    grid-template-columns: 291px 369px 280px;
+    grid-template-rows: 443px;
+  }
+
+  #logo_footer {
+    left: 30px;
+  }
+
+  #btn_4 {
+    margin-left: 0px;
+  }
+
+  #socialmedia {
+    margin-left: 0px;
+  }
+
+  #about_footer {
+    margin-left: -30px;
+  }
+
+  #email_form {
+    margin-left: -60px;
+  }
+
+  #designed_by {
+    margin-left: 90px;
+  }
+}
