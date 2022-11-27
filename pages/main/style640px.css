@@ -380,9 +380,64 @@
 
   #testimonials {
     width: 600px;
+    height: 390px;
+    margin-left: 20px;
   }
 
   #btn_leave_feedback {
     margin-left: 180px;
+  }
+
+  .testimonial_item {
+    width: 193px;
+    height: 360px;
+    border-radius: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  .testimonial_text {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+    height: 270px;
+    overflow: hidden;
+  }
+
+  .testimonial_name {
+    padding-left: 10px;
+    width: 165px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: none;
+  }
+
+  .outer_wrapper::-webkit-scrollbar-track-piece:end {
+    margin-right: 70px;
+  }
+
+  .outer_wrapper::-webkit-scrollbar-track-piece:start {
+    margin-left: 70px;
+  }
+
+  #leav_foto {
+    top: 3090px;
+    scale: 0.5;
+    left: 455px;
+  }
+  #footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 3330px;
+    width: 640px;
+    height: 443px;
+    background: #000000;
   }
 }
