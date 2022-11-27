@@ -91,6 +91,7 @@
   }
 
   #TheBackstage {
+    top: -10px;
     left: 486px;
     width: 455px;
     height: 408px;
@@ -102,6 +103,12 @@
     width: 455px;
     height: 408px;
     overflow: hidden;
+  }
+
+  #TheBackStage_p2 {
+    left: 486px;
+    right: 0px;
+    top: 282px;
   }
 
   #TheBackStage_subtitle {
