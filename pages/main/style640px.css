@@ -1,0 +1,443 @@
+@media screen and (max-width: 640px) {
+  body {
+    width: 640px;
+    height: 4489px;
+  }
+
+  #hamburger_menu {
+    visibility: visible;
+    color: white;
+    position: absolute;
+    width: 640px;
+    height: 34px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    backdrop-filter: blur(2px);
+    border: none;
+    z-index: 2;
+  }
+
+  #normal_menu {
+    visibility: hidden;
+  }
+
+  label[for="hamburger"] {
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 5px;
+    right: 17px;
+  }
+
+  #hamburger {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+  #hamnav {
+    width: 240px;
+    background: black;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 340px;
+  }
+
+  #hamnav input:checked ~ #hamitems {
+    display: block;
+  }
+
+  #hamitems {
+    display: none;
+    color: white;
+    text-align: center;
+  }
+
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid rgb(105, 105, 105);
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+  }
+
+  #hamitems a:hover {
+    color: #f9804b;
+    cursor: pointer;
+  }
+
+  #hamnav label,
+  #hamburger {
+    display: none;
+  }
+
+  #hamnav label {
+    display: inline-block;
+    color: white;
+  }
+
+  #logo {
+    content: "PetStory online";
+    position: absolute;
+    height: 30px;
+    width: 47px;
+    left: 20px;
+    top: -1px;
+    background: #000000;
+    color: white;
+    text-align: center;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0px;
+  }
+
+  h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.2899px;
+  }
+
+  #about {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: var(--about-active-color);
+    cursor: var(--about-cursor);
+  }
+
+  #map {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+  }
+
+  #zoos {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+  }
+
+  #donate {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+  }
+
+  #contactus {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+  }
+
+  #designedby {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: #ffffff;
+  }
+
+  #section1_ft {
+    width: 640px;
+    height: 373px;
+    background: url("../../assets/images/GiantPanda.jpg");
+    background-size: 765px 373px;
+    background-position: center;
+    filter: none;
+  }
+
+  #ellipse6 {
+    position: absolute;
+    width: 237.6px;
+    height: 237.6px;
+    left: calc(50% - 237.6px / 2 + 130.44px);
+    top: 44.23px;
+  }
+
+  #watchyouranimal {
+    width: 255.64px;
+    height: 204.38px;
+    left: calc(50% - 255.64px / 2 + 176.76px);
+    top: 82.04px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54.2894px;
+    line-height: 75%;
+  }
+
+  #btn_1 {
+    left: calc(50% - 298px / 2 - 151px);
+    top: 279px;
+  }
+
+  #section2 {
+    top: 373px;
+    width: 640px;
+    height: 507px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .row {
+    height: 507px;
+  }
+
+  .column {
+    display: none;
+  }
+
+  .column_2 {
+    top: 60px;
+    flex: 100%;
+  }
+
+  #TheBackstage {
+    top: 60px;
+    left: 20px;
+  }
+
+  #TheBackStage_p {
+    top: 196px;
+    left: 20px;
+    width: 454px;
+  }
+
+  #TheBackStage_p2 {
+    top: 320px;
+    left: 20px;
+    width: 495px;
+  }
+
+  #TheBackStage_subtitle {
+    top: 270px;
+    left: 20px;
+  }
+
+  #flower {
+    position: absolute;
+    display: block;
+    width: 293px;
+    height: 605px;
+    left: 480px;
+    top: -70px;
+    overflow: hidden;
+    scale: 0.8;
+  }
+
+  #section3_animals_card {
+    top: 880px;
+    width: 600px;
+    left: 20px;
+  }
+
+  #grid_container {
+    grid-template-columns: repeat(4, 285px);
+    grid-template-rows: repeat(2, 332px);
+    grid-column-gap: 28px;
+    grid-row-gap: 90px;
+  }
+
+  #animal_card {
+    width: 285px;
+    height: 332px;
+    top: 0px;
+    border-radius: 5px;
+    border-color: #fa6f32;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .animal_card_animation {
+    width: 285px;
+    height: 285px;
+  }
+
+  #animal_card:hover .animal_card_animation {
+    width: 325px;
+    height: 325px;
+  }
+
+  @keyframes animate_image {
+    0% {
+      width: 285px;
+      height: 285px;
+      filter: brightness(100%);
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    100% {
+      width: 325px;
+      height: 325px;
+      filter: brightness(70%);
+      margin-left: -10px;
+      margin-top: -10px;
+    }
+  }
+
+  #ellipse1 {
+    top: 1226px;
+    left: 243px;
+  }
+
+  #ellipse2 {
+    top: 1226px;
+    left: 335px;
+  }
+
+  #palm_image {
+    position: absolute;
+    top: 1649px;
+    left: 0px;
+    width: 130px;
+    height: 202px;
+  }
+
+  #strelitzia_image {
+    position: absolute;
+    top: 1721px;
+    right: 0px;
+    width: 175px;
+    height: 130px;
+  }
+
+  #btn_2 {
+    top: 1696px;
+  }
+
+  #bg_section4_pick-and-feed {
+    top: 1850px;
+    width: 640px;
+    height: 781px;
+  }
+
+  #bg {
+    width: 640px;
+    height: 741px;
+    left: 0px;
+    top: 20px;
+  }
+
+  .margin_99 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .subtitle_font {
+    color: black;
+  }
+
+  .pickandfeed_font1 {
+    color: black;
+  }
+
+  .pickandfeed_font2 {
+    color: black;
+  }
+
+  .orange_font {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .marginbottom_40 {
+    margin-bottom: 20px;
+  }
+
+  .container_2 {
+    display: grid;
+    grid-template-columns: 155px 60px 155px 60px 155px;
+    grid-template-rows: 244px;
+    gap: 0px 0px;
+    grid-template-areas: ". . . . .";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: start;
+    margin-top: -20px;
+  }
+
+  .bigArrow {
+    width: 40px;
+    margin-top: 73px;
+  }
+
+  #btn_3 {
+    margin-top: 30px;
+  }
+
+  #section_testimonials {
+    top: 2691px;
+    width: 640px;
+  }
+
+  #testimonials {
+    width: 600px;
+    height: 390px;
+    margin-left: 20px;
+  }
+
+  #btn_leave_feedback {
+    margin-left: 180px;
+  }
+
+  .testimonial_item {
+    width: 193px;
+    height: 360px;
+    border-radius: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  .testimonial_text {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+    height: 270px;
+    overflow: hidden;
+  }
+
+  .testimonial_name {
+    padding-left: 10px;
+    width: 165px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: none;
+  }
+
+  .outer_wrapper::-webkit-scrollbar-track-piece:end {
+    margin-right: 70px;
+  }
+
+  .outer_wrapper::-webkit-scrollbar-track-piece:start {
+    margin-left: 70px;
+  }
+
+  #leav_foto {
+    top: 3089px;
+    scale: 0.5;
+    left: 455px;
+  }
+  #footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 3330px;
+    width: 640px;
+    height: 443px;
+    background: #000000;
+  }
+}

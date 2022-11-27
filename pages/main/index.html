@@ -7,6 +7,7 @@
     <title>Online Zoo</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="style1000px.css" type="text/css" />
+    <link rel="stylesheet" href="style640px.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +17,26 @@
   </head>
   <body>
     <section id="section1_ft">
-      <header class="navbar_font">
+      <header id="hamburger_menu">
+        <a href="index.html"><span id="logo"><h1>PetStory online</h1></span></a>
+        <nav id="hamnav">
+          <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger"/>
+          <div id="hamitems" class="navbar_font">
+            <a href="index.html"><span id="about">About</span></a>
+            <a href="#"><span id="map">Map</span></a>
+            <a href="#"><span id="zoos">Zoos</span></a>
+            <a href="../donate/index.html"><span id="donate">Donate</span></a>
+            <a href="#"><span id="contactus">Contact us</span></a>
+            <a
+              href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+              ><span id="designedby">Designed by ©</span></a
+            >
+          </div>
+        </nav>
+      </header>
+
+      <header id="normal_menu" class="navbar_font">
         <a href="index.html"><span id="logo"><h1>PetStory online</h1></span></a>
         <a href="index.html"><span id="about">About</span></a>
         <span id="map">Map</span>
@@ -42,18 +62,16 @@
         </div>
         <div class="column_2">
           <h2 id="TheBackstage">The Backstage of the Wilderness World.</h2>
-          <p id="TheBackStage_p" style="top: 136px">
+          <p id="TheBackStage_p">
             The site was founded on the basis of a volunteer movement to protect
             and care for animals.
           </p>
           <p
             id="TheBackStage_subtitle"
-            class="subtitle_font"
-            style="top: 232px"
-          >
+            class="subtitle_font">
             How it works
           </p>
-          <p id="TheBackStage_p" style="top: 295px">
+          <p id="TheBackStage_p2">
             The main goal is to help the animals, as well as the nature reserves
             and zoos where they are kept. We are currently working on video
             projects targeting pandas in China, eagles on an island near Los
@@ -67,7 +85,7 @@
       </span>
     </section>
 
-    <section>
+    <section id="animals">
       <div id="section3_animals_card">
         <div id="grid_container">
           <div class="div1" id="animal_card">
@@ -196,7 +214,7 @@
             let width_destination = parseInt(style2.width) + 30;
             if (style.marginLeft == "0px") {
               let a = 0;
-              for (let i=0; i<=width_destination-1; i++)
+              for (let i=0; i<width_destination-1; i++)
               { 
                 element.style.marginLeft = "-" + i + "px";
                 await sleep(3);

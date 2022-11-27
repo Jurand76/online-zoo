@@ -185,7 +185,6 @@ p {
   left: 556px;
   top: 29px;
   color: white;
-  background: #000000;
 }
 
 #donate {
@@ -382,12 +381,26 @@ a:visited {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
+  top: 136px;
+}
+
+#TheBackStage_p2 {
+  position: absolute;
+  left: 696px;
+  right: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  top: 292px;
 }
 
 #TheBackStage_subtitle {
   position: absolute;
   left: 696px;
   right: 0px;
+  top: 225px;
 }
 
 #flower {
@@ -818,7 +831,6 @@ a:visited {
 }
 
 .testimonial_name {
-  padding-left: 0px;
   padding-top: 20px;
   padding-left: 20px;
   font-family: "Roboto";
