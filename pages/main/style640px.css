@@ -1,0 +1,226 @@
+@media screen and (max-width: 640px) {
+  body {
+    width: 640px;
+    height: 4489px;
+  }
+
+  #hamburger_menu {
+    visibility: visible;
+    color: white;
+    position: absolute;
+    width: 640px;
+    height: 34px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    backdrop-filter: blur(2px);
+    border: none;
+    z-index: 2;
+  }
+
+  #normal_menu {
+    visibility: hidden;
+  }
+
+  label[for="hamburger"] {
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 5px;
+    right: 17px;
+  }
+
+  #hamburger {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+  #hamnav {
+    width: 240px;
+    background: black;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 340px;
+  }
+
+  #hamnav input:checked ~ #hamitems {
+    display: block;
+  }
+
+  #hamitems {
+    display: none;
+    color: white;
+    text-align: center;
+  }
+
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid rgb(105, 105, 105);
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+  }
+
+  #hamitems a:hover {
+    color: #f9804b;
+    cursor: pointer;
+  }
+
+  #hamnav label,
+  #hamburger {
+    display: none;
+  }
+
+  #hamnav label {
+    display: inline-block;
+    color: white;
+  }
+
+  #logo {
+    content: "PetStory online";
+    position: absolute;
+    height: 30px;
+    width: 47px;
+    left: 20px;
+    top: -1px;
+    background: #000000;
+    color: white;
+    text-align: center;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0px;
+  }
+
+  h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.2899px;
+  }
+
+  #about {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: var(--about-active-color);
+    cursor: var(--about-cursor);
+  }
+
+  #map {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+  }
+
+  #zoos {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+  }
+
+  #donate {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+  }
+
+  #contactus {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+  }
+
+  #designedby {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: #ffffff;
+  }
+
+  #section1_ft {
+    width: 640px;
+    height: 373px;
+    background: url("../../assets/images/GiantPanda.jpg");
+    background-size: 765px 373px;
+    background-position: center;
+    filter: none;
+  }
+
+  #ellipse6 {
+    position: absolute;
+    width: 237.6px;
+    height: 237.6px;
+    left: calc(50% - 237.6px / 2 + 130.44px);
+    top: 44.23px;
+  }
+
+  #watchyouranimal {
+    width: 255.64px;
+    height: 204.38px;
+    left: calc(50% - 255.64px / 2 + 176.76px);
+    top: 82.04px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54.2894px;
+    line-height: 75%;
+  }
+
+  #btn_1 {
+    left: calc(50% - 298px / 2 - 151px);
+    top: 279px;
+  }
+
+  #section2 {
+    top: 373px;
+    width: 640px;
+    height: 507px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .row {
+    height: 507px;
+  }
+
+  .column {
+    display: none;
+  }
+
+  .column_2 {
+    top: 60px;
+    flex: 100%;
+  }
+
+  #TheBackstage {
+    top: 60px;
+    left: 20px;
+  }
+
+  #TheBackStage_p {
+    top: 60px;
+    left: 20px;
+  }
+
+  #TheBackStage_subtitle {
+    top: 60px;
+    left: 20px;
+  }
+
+  #flower {
+    position: absolute;
+    display: block;
+    width: 231px;
+    height: 476px;
+    left: 492px;
+    top: -40px;
+    overflow: hidden;
+  }
+}
