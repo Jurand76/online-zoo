@@ -53,6 +53,7 @@
   .donate1_text_section {
     width: 778px;
     margin-left: 30px;
+    margin-top: 40px;
   }
 
   .donate1_small_font {
@@ -134,8 +135,14 @@
     margin-top: 10px;
   }
 
+  .margin_bottom60 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+
   #footer {
     width: 1000px;
+    top: 1803px;
   }
 
   .container_3 {
@@ -166,5 +173,4 @@
   #designed_by {
     margin-left: 90px;
   }
-}
 }
