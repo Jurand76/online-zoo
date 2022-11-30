@@ -1,4 +1,10 @@
 @media screen and (max-width: 640px) {
+  :root {
+    --about-active-color: #f9804b;
+    --about-cursor: pointer;
+    --max-width1: 640px;
+  }
+
   body {
     width: 640px;
     height: 4489px;
@@ -20,6 +26,7 @@
 
   #normal_menu {
     visibility: hidden;
+    width: 640px;
   }
 
   label[for="hamburger"] {
