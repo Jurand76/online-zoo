@@ -1,0 +1,170 @@
+@media screen and (max-width: 1000px) {
+  body {
+    width: 1000px;
+  }
+
+  header {
+    width: 1000px;
+  }
+
+  #logo {
+    left: 30px;
+  }
+
+  #about {
+    left: 175px;
+  }
+
+  #map {
+    left: 266px;
+  }
+
+  #zoos {
+    left: 346px;
+  }
+
+  #donate {
+    left: 430px;
+  }
+
+  #contactus {
+    left: 529px;
+  }
+
+  #designedby {
+    left: 865px;
+  }
+
+  #image_header {
+    width: 1000px;
+    overflow: hidden;
+    height: 390px;
+  }
+
+  #donate1 {
+    width: 1000px;
+    position: absolute;
+    height: 1482px;
+    left: 0px;
+    right: 0px;
+    top: 470px;
+  }
+
+  .donate1_text_section {
+    width: 778px;
+    margin-left: 30px;
+  }
+
+  .donate1_small_font {
+    width: 939px;
+    margin-left: 0px;
+  }
+
+  #pick_and_feed {
+    width: 940px;
+    height: 918px;
+  }
+
+  #pick_and_feed_inside {
+    width: 850px;
+    margin-left: 75px;
+    overflow: clip;
+  }
+
+  .padding_top40 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .grid_feed {
+    margin-left: 140px;
+  }
+
+  #progress_bar {
+    width: 810px;
+  }
+
+  #progress_bar_dark {
+    width: 810px;
+    top: 510px;
+    overflow-x: clip;
+    overflow-y: visible;
+  }
+
+  #progress_bar_line {
+    width: 932px;
+    margin-left: -115px;
+  }
+
+  #amount_bar {
+    width: 1000px;
+  }
+
+  .width_span {
+    width: 45px;
+    margin-left: 67px;
+  }
+
+  .width_span3 {
+    margin-left: 60px;
+  }
+  .width_span5 {
+    margin-left: -130px;
+  }
+  .width_span6 {
+    margin-left: 80px;
+  }
+
+  #amount_manual {
+    width: 284px;
+    height: 54px;
+    margin-left: 265px;
+  }
+
+  #sign_dollar {
+    top: 643px;
+    right: 325px;
+  }
+
+  #btn_3 {
+    margin-left: 256px;
+  }
+
+  .margin_top40 {
+    margin-top: 10px;
+  }
+
+  #footer {
+    width: 1000px;
+  }
+
+  .container_3 {
+    grid-template-columns: 291px 369px 280px;
+    grid-template-rows: 443px;
+  }
+
+  #logo_footer {
+    left: 30px;
+  }
+
+  #btn_4 {
+    margin-left: 0px;
+  }
+
+  #socialmedia {
+    margin-left: 0px;
+  }
+
+  #about_footer {
+    margin-left: -30px;
+  }
+
+  #email_form {
+    margin-left: -60px;
+  }
+
+  #designed_by {
+    margin-left: 90px;
+  }
+}
+}

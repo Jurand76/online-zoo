@@ -732,6 +732,10 @@ input[type="text"] {
   margin-left: 15px;
 }
 
+.width_span6 {
+  margin-left: 72px;
+}
+
 .margin_top25 {
   margin-top: 25px;
 }
