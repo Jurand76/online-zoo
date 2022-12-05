@@ -237,6 +237,33 @@
     margin-left: 30px;
   }
 
+  #testimonial_big {
+    position: absolute;
+    top: 75px;
+    width: 940px;
+    height: 392px;
+    left: 30px;
+  }
+
+  #bigText {
+    top: 130px;
+    left: 270px;
+    width: 620px;
+    height: 200px;
+    font-size: 16px;
+  }
+
+  #closeTestimonial {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    right: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #444444;
+    cursor: pointer;
+  }
   .testimonial_item {
     width: 289px;
   }

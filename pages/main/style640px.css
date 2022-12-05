@@ -395,6 +395,38 @@
     margin-left: 180px;
   }
 
+  #testimonial_big {
+    position: absolute;
+    top: 75px;
+    width: 600px;
+    height: 362px;
+    left: 20px;
+  }
+
+  #bigImage {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #bigName {
+    margin-top: 16px;
+    margin-left: 180px;
+    font-size: 24px;
+  }
+
+  #bigText {
+    top: 70px;
+    left: 200px;
+    width: 380px;
+    height: 270px;
+    font-size: 16px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+  }
+
   .testimonial_item {
     width: 193px;
     height: 360px;
