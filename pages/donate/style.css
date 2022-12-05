@@ -1,6 +1,7 @@
 :root {
   --about-active-color: #f9804b;
   --about-cursor: pointer;
+  --valid-mail-color: #444444;
 }
 
 html {
@@ -666,23 +667,31 @@ input[type="text"] {
   border-radius: 2px;
   border-style: solid;
   border-width: 1px;
-  border-color: #f9804b;
   background: none;
   color: #bdbdbd;
   margin-top: 10px;
   padding-left: 10px;
 }
 
+input:valid {
+  --valid-mail-color: #4b9200;
+  border-color: #4b9200;
+}
+
+input:invalid {
+  border-color: #f9804b;
+}
+
 #btn_submit_mail {
-  height: 42px;
-  width: 129px;
+  height: 44px;
+  width: 139px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  color: #000000;
-  border-color: #333b41;
-  border-radius: 5px;
+  font-size: 20px;
+  color: var(--valid-mail-color);
+  border-color: var(--valid-mail-color);
+  border-radius: 3px;
 }
 
 #btn_submit_mail:hover {
