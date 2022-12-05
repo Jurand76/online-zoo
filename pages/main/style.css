@@ -1106,15 +1106,15 @@ input:invalid {
 }
 
 #btn_submit_mail {
-  height: 42px;
-  width: 129px;
+  height: 44px;
+  width: 139px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   color: var(--valid-mail-color);
   border-color: var(--valid-mail-color);
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #btn_submit_mail:hover {
