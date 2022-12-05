@@ -673,12 +673,12 @@ input[type="text"] {
   padding-left: 10px;
 }
 
-input:valid {
+input[type="email"]:valid {
   --valid-mail-color: #4b9200;
   border-color: #4b9200;
 }
 
-input:invalid {
+input[type="email"]:invalid {
   border-color: #f9804b;
 }
 
