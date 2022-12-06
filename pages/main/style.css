@@ -790,6 +790,7 @@ a:visited {
 }
 
 #testimonial_big {
+  overflow: hidden;
   position: absolute;
   top: 93px;
   width: 1160px;

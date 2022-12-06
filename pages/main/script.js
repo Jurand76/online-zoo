@@ -1,4 +1,5 @@
 console.log("Script started");
+
 var items = [];
 for (let i = 1; i <= 11; i++) {
   let one_item = {};
@@ -15,14 +16,30 @@ for (let i = 1; i <= 11; i++) {
   items.push(one_item);
 }
 
-function show_testimonial(number) {
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function interval(msec) {
+  await delay(msec);
+}
+
+async function show_testimonial(number) {
   console.log("Show number " + number);
   document.getElementById("testimonial_big").style.visibility = "visible";
   document.getElementById("bigImage").src = items[number - 1].image_src;
   document.getElementById("bigName").innerText = items[number - 1].name;
   document.getElementById("bigText").innerText = items[number - 1].text;
+  for (let a = 0; a < 50; a++) {
+    document.getElementById("testimonial_big").style.opacity = a / 50;
+    await interval(2);
+  }
 }
 
-function closeTestimonialBox() {
+async function closeTestimonialBox() {
+  for (let a = 50; a >= 0; a--) {
+    document.getElementById("testimonial_big").style.opacity = a / 50;
+    await interval(2);
+  }
   document.getElementById("testimonial_big").style.visibility = "hidden";
 }
